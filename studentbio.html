@@ -3,18 +3,97 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Student Bio</title>
+	
+	<style>
+
+	body {
+		background-color: #EFEEE7;
+		font-family: Georgia;
+		color: #333333;
+		margin: 0;
+		padding: 0;
+		line-height: 1.5;
+	}
+
+	header {
+		background-color: #333;
+		margin: 50px;
+		padding: 25px;
+
+	}
+
+	h1 {
+		color: #eee;
+		font-size: 28px;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	a {
+		color: ;
+	}
+
+	.container {
+	width: 1024px;
+	margin: 0 auto;
+	}
+
+	#main-bio,
+	#contact-info,
+	#bio-image {
+		float: left;
+	}
+
+	#bio-image {
+		width: 200px;
+		margin: 0 10px 0 0;
+	}
+
+	#main-bio {
+		width: 70%;
+	}
+
+	#content-info {
+		width: 30%;
+	}
+
+	a {
+	color: #d21034;
+	}
+
+
+
+
+	</style>
+	
+	
+
+
+
+
+
+
 </head>
 
 <body>
-	
+	<header>
 	<h1> Student Bio </h1>
+	</header>
 
+	<div class="container">
+		<section id="main-bio">
+	
 	<h2>David Kanwisher</h2>
 
-	<img src="http://media-hearth.cursecdn.com/avatars/252/906/635754873347018821.jpeg" alt="thanksobama">
-
+	<img src="http://media-hearth.cursecdn.com/avatars/252/906/635754873347018821.jpeg" alt="thanksobama" id="bio-image">
+	
 	<p>I have been programming for web development for about a month at this time. I live in Gastonia, NC and hope to earn full time employment in the next 12 months. I live with my girlfriend and our three pets.</p>
-
+		</section>
+		<section id="contact-info">
+	
 	<h2>Contact Info</h2>
 
 	<ul>
@@ -22,6 +101,9 @@
 		<li><strong>Github: <a href="#">Kanwisher</a></strong></li>
 		<li><strong>Portfolio: <a href="https://www.wisherworks.com">WisherWorks</a></strong></li>
 	</ul>
+	</section>
+	
+	</div>
 
 </body>
 </html>
